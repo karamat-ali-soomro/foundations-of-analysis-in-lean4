@@ -32,4 +32,13 @@ theorem absolute_value_triangle_inequality (x y : ℝ) :
     |x + y| ≤ |x| + |y| := by
   exact abs_add x y
 
+theorem add_nonnegative
+    (a b : ℝ) (ha : 0 ≤ a) (hb : 0 ≤ b) :
+    0 ≤ a + b := by
+  linarith
+
+theorem square_nonnegative_sum (x y : ℝ) :
+    0 ≤ (x + y) ^ 2 := by
+  positivity
+
 end FoundationsOfAnalysis
