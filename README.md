@@ -29,8 +29,6 @@ lake exe cache get
 lake env lean FoundationsOfAnalysis.lean
 ```
 
-The first run may take some time because Mathlib must be downloaded and its cache retrieved.
-
 ## Mathematical explanation
 
 The project demonstrates several ways a formal proof can be checked:
@@ -43,10 +41,8 @@ The project demonstrates several ways a formal proof can be checked:
 
 The proofs rely on Mathlib's established results where indicated; this project is a learning exercise in stating and using formal theorems, not a claim that those underlying results were newly proved here.
 
-## Status
-
-Starter project. Run the commands above to verify it in your local Lean environment before presenting it as a verified repository.
 
 ## Author
 
-Add your name and profile link here before publishing.
+Karamat Ali
+https://karamatalisoomro.netlify.app/
